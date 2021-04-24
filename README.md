@@ -1,7 +1,7 @@
 # Code Test
 The code test for new applicants.
 
-Read the task description thoroughly and create a branch with your solution.
+Read the task description thoroughly and create a fork with your solution.
 
 ## Task Description
 
@@ -53,7 +53,7 @@ mentioned unit tests to prove it works.
 * Have I followed what I believe to be common coding standards?
 * Have I identified and fixed potential bugs?
 * How do I verify that the bugs were fixed and that my code works? 
-* Does my solution live up to modern standard? In example, should my .NET solution only be restricted to run on Windows?
+* Does my solution live up to modern standard?
 
 There are no limits in what you can do with the code. You can create new classes, new interfaces, use
 other technologies within .Net as long as the LogComponent will do as specified. 
