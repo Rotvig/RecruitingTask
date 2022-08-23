@@ -1,8 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{DE1ECC71-A33E-4B92-9A94-267B098D8141}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{DE1ECC71-A33E-4B92-9A94-267B098D8141}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogComponent", "LogComponent\LogComponent.csproj", "{26D29C79-2F06-4933-99D2-CFF7E696A82C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogComponent", "LogComponent\LogComponent.csproj", "{26D29C79-2F06-4933-99D2-CFF7E696A82C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B2BD96C3-7D09-43F3-9618-F6B241D19150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{83E83B6F-C1FE-4750-9737-DD40187EC4E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit-tests", "Unit-tests\Unit-tests.csproj", "{F0DEF706-A3CC-4626-9C08-699AED2B84DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +27,20 @@ Global
 		{26D29C79-2F06-4933-99D2-CFF7E696A82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26D29C79-2F06-4933-99D2-CFF7E696A82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26D29C79-2F06-4933-99D2-CFF7E696A82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0DEF706-A3CC-4626-9C08-699AED2B84DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DEF706-A3CC-4626-9C08-699AED2B84DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DEF706-A3CC-4626-9C08-699AED2B84DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DEF706-A3CC-4626-9C08-699AED2B84DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE1ECC71-A33E-4B92-9A94-267B098D8141} = {B2BD96C3-7D09-43F3-9618-F6B241D19150}
+		{26D29C79-2F06-4933-99D2-CFF7E696A82C} = {B2BD96C3-7D09-43F3-9618-F6B241D19150}
+		{F0DEF706-A3CC-4626-9C08-699AED2B84DD} = {83E83B6F-C1FE-4750-9737-DD40187EC4E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0338FD04-CBEE-4214-84F5-3DCF35C577BC}
 	EndGlobalSection
 EndGlobal
